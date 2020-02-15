@@ -21,14 +21,25 @@ body {
   height: 2em;
   margin-top: 1em;
   margin-right: 1em;
-}
 
-.demopic {
-  border: 1px solid rgb(158, 158, 158);
+  animation-name: bobbing;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
 }
 
 .topIcon:hover {
   cursor: pointer;
+  opacity: 40%;
+}
+
+@keyframes bobbing {
+  50% {
+    transform: scale(1.3);
+  }
+}
+
+.demopic {
+  border: 1px solid rgb(158, 158, 158);
 }
 
 .desc {
