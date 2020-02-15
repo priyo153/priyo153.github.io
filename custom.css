@@ -1,0 +1,80 @@
+body {
+  background: rgb(0, 250, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 250, 255, 1) 0%,
+    rgba(2, 146, 245, 1) 54%,
+    rgba(13, 13, 134, 1) 100%
+  );
+}
+
+.tools {
+  width: 2em;
+  height: 2em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-right: 0.5em;
+}
+
+.topIcon {
+  width: 2em;
+  height: 2em;
+  margin-top: 1em;
+  margin-right: 1em;
+}
+
+.demopic {
+  border: 1px solid rgb(158, 158, 158);
+}
+
+.topIcon:hover {
+  cursor: pointer;
+}
+
+.desc {
+  display: flex;
+  align-items: center;
+}
+
+.desc p {
+  font-size: larger;
+}
+
+.profilePic {
+  overflow: hidden;
+  border-radius: 50%;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.9), 0 1px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 800px) {
+  .desc {
+    display: initial;
+  }
+  .desc p {
+    font-size: large;
+    margin-top: 50px;
+  }
+}
+
+.description {
+  padding-left: 2rem;
+  align-self: center;
+  font-size: larger;
+}
+
+.projects {
+  display: flex;
+  align-items: center;
+}
+
+.theProject {
+  margin: 0.5em;
+  padding: 1em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: all 0.2s ease-in-out;
+}
+
+.theProject:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
