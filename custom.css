@@ -27,6 +27,16 @@ body {
   animation-iteration-count: infinite;
 }
 
+.introIcon {
+  width: 1.5em;
+  height: 1.5em;
+  margin: 0 0.25em;
+
+  animation-name: bobbing;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
 .topIcon:hover {
   cursor: pointer;
   opacity: 40%;
