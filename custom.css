@@ -8,6 +8,11 @@ body {
   );
 }
 
+.cert {
+  width: 8em;
+  height: 8em;
+  cursor: pointer;
+}
 .tools {
   width: 2em;
   height: 2em;
